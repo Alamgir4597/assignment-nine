@@ -2,12 +2,14 @@
 
 import { useNavigate } from 'react-router-dom';
 import useReview from '../../hooks/useReview';
+import HomeItem from '../HomeItem/HomeItem';
 import Review from '../Review/Review';
 import './Home.css';
 const Home = () => {
     const [reviews, setReviews] = useReview();
     const navigate=useNavigate();
 // console.log("review",review)
+const threeItem= reviews.slice(0,3)
     return (
         <div className='main-container'>
         <div className='home-container'>
@@ -23,6 +25,7 @@ const Home = () => {
         </div>
             
          <h1>Total Reviews: {reviews.length}</h1>
+            {threeItem.map(view => <HomeItem key={view.id} view={view}></HomeItem>)}
             <button className='review-btn' onClick={() => navigate('/review')}>See All Reviews</button>
         </div>
     );
