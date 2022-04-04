@@ -1,0 +1,38 @@
+[
+    {
+        "id":1,
+        "Name":"Sakib",
+        "Review":"This is Awesome Bike",
+        "Rating":4.5
+    },
+    {
+        "id":2,
+        "Name":"Naim",
+        "Review":"Mileage good",
+        "Rating":5
+    },
+    {
+        "id":3,
+        "Name":"Tamim",
+        "Review":"Powerful Engine",
+        "Rating":4.5
+    },
+    {
+        "id":4,
+        "Name":"Taskin",
+        "Review":"Very Comfortable",
+        "Rating":5
+    },
+    {
+        "id":5,
+        "Name":"Mustafiz",
+        "Review":"ABS well Working",
+        "Rating":4
+    },
+    {
+        "id":6,
+        "Name":"Hossain",
+        "Review":"Highly Torque",
+        "Rating":4.5
+    }
+]
