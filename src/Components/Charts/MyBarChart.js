@@ -50,7 +50,7 @@ const MyBarChart = () => {
                 <Legend />
                 <Bar dataKey="investment" fill="#8884d8" />
                 <Bar dataKey="revenue" fill="#82ca9d" />
-                <Bar dataKey="sell" fill="#82ca9d" />
+               
             </BarChart>
         </div>
     );
