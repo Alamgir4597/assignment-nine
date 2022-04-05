@@ -2,13 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Available in Website
+➡️ All bike information are Available.
+➡️ Original Bike picture.
+➡️ Update Information.
+➡️ Biker Reviews.
 
-This will create a bullet point list in your markdown
- Markup : * Bullet list
-              * Nested bullet
-                  * Sub-nested bullet etc
-          * Bullet list item 2
 
 ### `npm start`
 
